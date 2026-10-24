@@ -1,24 +1,40 @@
 cff-version: 1.2.0
-message: "If you use this dataset, benchmark suite, or monograph in your research, please cite it as below."
+message: "If you use this dataset, benchmark harness, or reference the monograph, please cite it as below."
+title: "Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear"
 authors:
-  - family-names: Doletskyi
-    given-names: Serhii
+  - family-names: "Doletskyi"
+    given-names: "Serhii"
     orcid: "https://orcid.org/0009-0009-3337-3018"
-title: "Autonomous AI Agent Security Incidents of 2026: Benchmark Dataset, Sandbox Escape Forensics, and Multi-Agent Vulnerability Taxonomy"
-version: 1.0.0
-doi: 10.5281/zenodo.22737862
-date-released: 2026-09-15
-url: "https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.22737862"
+date-released: "2026-09-14"
+version: "1.0.0"
+url: "https://doi.org/10.5281/zenodo.22737862"
 repository-code: "https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026"
-license: CC-BY-4.0
+license: "CC-BY-4.0"
 keywords:
-  - ai-safety
-  - ai-security
-  - autonomous-agents
-  - sandbox-escape
-  - container-security
-  - incident-database
-  - confused-deputy
-  - prompt-injection
-  - red-teaming
-  - benchmark
+  - "autonomous AI agents"
+  - "AI security incidents"
+  - "agentic AI"
+  - "systematization of knowledge"
+  - "evidence quality"
+  - "incident disclosure"
+  - "source independence"
+  - "frontier model evaluation"
+  - "sandbox escape"
+  - "container escape"
+  - "inter-agent communication"
+  - "AI governance"
+preferred-citation:
+  type: book
+  title: "Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear"
+  authors:
+    - family-names: "Doletskyi"
+      given-names: "Serhii"
+      orcid: "https://orcid.org/0009-0009-3337-3018"
+  year: 2026
+  month: 9
+  publisher:
+    name: "Zenodo / Hugging Face"
+  doi: "10.5281/zenodo.22737862"
+  url: "https://doi.org/10.5281/zenodo.22737862"
